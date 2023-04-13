@@ -11,9 +11,9 @@ router.get("/:id", getOneTask);
 router.post("/", createTask);
 
 // patch if you need to update only some properties of an object
-router.patch("/:id", updateTask);
+// router.patch("/:id", updateTask);
 
-// put if you want to update the whole object, you NEED to pass the whole object
+// put if you want to update the whole object- Here you NEED to pass the whole object
 router.put("/:id", updateTask);
 
 router.delete("/:id", deleteTask)
